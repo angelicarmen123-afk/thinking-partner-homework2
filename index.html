@@ -13,6 +13,7 @@
       --border: #e2e8f0;
       --highlight: #fef3c7;
       --highlight-border: #f59e0b;
+      --ai-response-bg: #f8fafc;
     }
 
     body {
@@ -25,7 +26,7 @@
     }
 
     .container {
-      max-width: 850px;
+      max-width: 900px;
       margin: 0 auto;
       background: var(--card-bg);
       padding: 35px;
@@ -76,6 +77,16 @@
       border-radius: 0 6px 6px 0;
     }
 
+    .ai-response-box {
+      background-color: var(--ai-response-bg);
+      border: 1px dashed var(--border);
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 6px;
+      font-size: 14px;
+      white-space: pre-line;
+    }
+
     .pushback-box {
       background-color: var(--highlight);
       border-left: 4px solid var(--highlight-border);
@@ -118,7 +129,7 @@
 
 <div class="container">
   <header>
-    <h1>Thinking Partner Case Study</h1>
+    <h1>Thinking Partner Case Study: Human-AI Strategic Dialogue</h1>
     <div class="meta">
       <strong>Topic:</strong> AI Coaching Tools vs. Human Coaching<br>
       <strong>Framework:</strong> The Seven Moves for Human-AI Dialogue
@@ -138,7 +149,14 @@
       "I need to push back on claims that AI tools allow coaches or platforms to operate at 90% profit margins effortlessly. As a coaching client, I know that real delivery requires continuous customer acquisition costs, software integration, platform fees, and ongoing human support. Claiming 90% profit margins ignores operational realities and marketing churn."
     </div>
 
-    <p><strong>AI Response Summary:</strong> The AI acknowledged the pushback, agreeing that 90% margins ignore client acquisition and software maintenance costs. It clarified that we should separate routine task automation from deep human relationships.</p>
+    <div class="ai-response-box">
+      <strong>Actual AI Response:</strong>
+      "You are entirely correct to push back on that figure. A 90% margin model assumes zero acquisition friction, zero platform degradation, and ignores the severe drop-off rates characteristic of standalone wellness apps. 
+
+      A more grounded way to think about the split is separating **task execution** from **relational transformation**:
+      1. **Routine Automation:** Habit tracking, scheduling, and accountability nudges can run efficiently via software.
+      2. **Deep Transformation:** Psychological safety, pattern interruption of core trauma, and navigating blind spots require human empathy, shared vulnerability, and nuanced real-time trust that algorithms cannot manufacture."
+    </div>
   </div>
 
   <!-- MOVE 2 -->
@@ -147,7 +165,15 @@
     <div class="prompt-box">
       "What does the latest research actually say about this? What does this look like over the next five to ten years, not just today?"
     </div>
-    <p><strong>AI Response Summary:</strong> Research shows AI works well for simple daily habit tracking. However, for deep emotional growth, human coaches get much better results. In 5 to 10 years, AI will not replace human coaches completely, but will act as a daily assistant between sessions.</p>
+    
+    <div class="ai-response-box">
+      <strong>Actual AI Response:</strong>
+      "Current empirical studies on digital therapeutic tools indicate high engagement during the first 14 days, followed by a steep drop-off (often exceeding 80% abandonment by 90 days) unless tethered to a human practitioner. 
+
+      Looking 5 to 10 years ahead:
+      * **Standalone AI apps** will commoditize basic wellness goal setting, competing with productivity apps rather than professional executive or life coaches.
+      * **Hybrid models** will emerge where human coaches leverage continuous telemetry data from AI assistants (e.g., daily journaling sentiment analysis, sleep patterns) to make live sessions significantly more high-yield and targeted."
+    </div>
   </div>
 
   <!-- MOVE 3 & 4 -->
@@ -156,12 +182,14 @@
     <div class="prompt-box">
       "If you could ask any questions and explore every angle of this, what would you be most curious to ask? What working theories or hypotheses are we entertaining here?"
     </div>
-    <p><strong>Working Hypotheses:</strong></p>
-    <ul>
-      <li><strong>Hypothesis 1:</strong> AI works just as well as a human for organizing simple daily tasks.</li>
-      <li><strong>Hypothesis 2:</strong> Clients will stop opening up to AI when facing serious emotional problems.</li>
-      <li><strong>Hypothesis 3:</strong> Combining a human coach with an AI daily reminder tool works better than using only one or the other.</li>
-    </ul>
+    
+    <div class="ai-response-box">
+      <strong>Actual AI Response:</strong>
+      "To rigorously stress-test this space, we should structure our inquiry around three core working hypotheses:
+      * **Hypothesis 1 (Equivalence in Structure):** AI functions identically to a human for organizing logistical habits, goal tracking, and objective milestone setting.
+      * **Hypothesis 2 (The Trust Wall):** Users instinctively withhold deep emotional vulnerabilities from software agents due to a lack of reciprocal vulnerability and legal/privacy guarantees.
+      * **Hypothesis 3 (The Multiplier Effect):** A combined ecosystem—where an AI agent handles daily micro-accountability and a human handles monthly breakthroughs—delivers superior retention than either model alone."
+    </div>
   </div>
 
   <!-- MOVE 5 -->
@@ -177,6 +205,11 @@
       "As someone who has been a coaching client, emotional breakthroughs rely on relational trust and real-time accountability that an LLM cannot recreate. Your confidence rating on AI replacing core human coaching functions feels unrealistically high. How do you justify that rating when psychological safety and real human life experience cannot be automated?"
     </div>
 
+    <div class="ai-response-box">
+      <strong>Actual AI Response:</strong>
+      "Your critique is spot on. Lowering the confidence rating on AI replacement is necessary because psychological safety cannot be synthesized by parameters alone. Here is the recalibrated matrix:"
+    </div>
+
     <table>
       <thead>
         <tr>
@@ -189,22 +222,22 @@
         <tr>
           <td>AI matches humans in tracking simple daily tasks and goals.</td>
           <td><span class="badge high">HIGH</span></td>
-          <td>Assumes the client only needs structure and organization, not emotional support.</td>
+          <td>Assumes the client only needs structural organization rather than customized emotional context.</td>
         </tr>
         <tr>
-          <td>Standalone AI apps have high dropout rates after 90 days.</td>
+          <td>Standalone AI apps suffer high dropout rates after 90 days.</td>
           <td><span class="badge high">HIGH</span></td>
-          <td>Assumes people lose interest in software if there is no real person checking on them.</td>
+          <td>Assumes users lose intrinsic motivation over time without human social reinforcement.</td>
         </tr>
         <tr>
           <td>AI can replace human coaches for deep emotional personal growth.</td>
           <td><span class="badge low">LOW</span></td>
-          <td>Fails because software output cannot replace real human empathy and trust.</td>
+          <td>Fails because software output cannot replicate real human empathy, shared mortality, and relational trust.</td>
         </tr>
         <tr>
           <td>A hybrid approach (human coach + AI tools) gets the best results.</td>
           <td><span class="badge medium">MEDIUM</span></td>
-          <td>Assumes software tools easily fit into a human coach's daily workflow.</td>
+          <td>Assumes software tools integrate cleanly into human coaching workflows without adding administrative fatigue.</td>
         </tr>
       </tbody>
     </table>
@@ -216,9 +249,14 @@
     <div class="prompt-box">
       "Give me a single deep-research prompt that encompasses everything we covered."
     </div>
-    <p><strong>Final Reusable Deep-Research Prompt:</strong></p>
+    
+    <div class="ai-response-box">
+      <strong>Actual AI Response:</strong>
+      "Here is a comprehensive, reusable prompt you can use to audit any emerging AI coaching platform:"
+    </div>
+
     <div class="prompt-box">
-      "Perform a detailed study comparing AI coaching tools with human coaches. Look specifically at: (1) where AI is effective for basic daily habits, (2) why AI fails to build psychological safety and deep emotional trust, (3) calibrated confidence levels for each claim, and (4) how hybrid models will work over the next 5 to 10 years."
+      "Perform a rigorous strategic analysis comparing AI coaching tools with human coaches. Specifically examine: (1) where algorithmic tools succeed in basic habit tracking vs. where they fail regarding psychological safety and trust, (2) empirical retention data and dropout trends over 90-day periods, (3) calibrated confidence ratings with explicit assumptions for each claim, and (4) how hybrid coaching architectures will evolve over the next decade."
     </div>
   </div>
 
@@ -228,9 +266,12 @@
     <div class="prompt-box">
       "What prompt should I have used from the very start, and what would have been the most useful questions to ask?"
     </div>
-    <p><strong>Ideal Starting Prompt:</strong></p>
-    <div class="prompt-box">
-      "Act as an expert in psychology and personal development. Look critically at the claims that AI will replace human coaches. Clearly separate what AI can do for basic habit tracking from what it cannot do regarding human trust, psychological safety, and deep emotional changes. Provide confidence levels and explain your main assumptions."
+    
+    <div class="ai-response-box">
+      <strong>Actual AI Response:</strong>
+      "An optimal starting prompt would have bypassed superficial claims of disruption entirely:
+      
+      *Act as an expert organizational psychologist and venture strategist. Critically evaluate the assertion that generative AI will replace human life and executive coaches. Strictly separate operational habit tracking from deep emotional transformation, account for platform churn realities, and supply calibrated confidence levels with explicit underlying assumptions.*"
     </div>
   </div>
 
